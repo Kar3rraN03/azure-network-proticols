@@ -134,7 +134,7 @@ Begin by connecting to the Windows 10 VM using Remote Desktop. Within the VM, in
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BUiKAMh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Proceed to ping the Ubuntu VM from the Windows 10 VM, as well as ping a public website. Initiate a continuous ping from Windows 10 to the Ubuntu VM.
@@ -143,7 +143,7 @@ Proceed to ping the Ubuntu VM from the Windows 10 VM, as well as ping a public w
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BxlskYT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Next, disable ICMP traffic in the Network Security Group (NSG) of the Ubuntu VM, and observe the changes in Wireshark and ping activity.
 </p>
@@ -151,7 +151,7 @@ Next, disable ICMP traffic in the Network Security Group (NSG) of the Ubuntu VM,
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bwkdQQK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 Finally, re-enable ICMP traffic and observe any alterations.
 </p>
