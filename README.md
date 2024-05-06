@@ -104,15 +104,13 @@ Part 2 (Observe RDP Traffic)
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/Qpd4JE0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img src="https://i.imgur.com/Qpd4JE0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  
 Begin by creating a resource group in your cloud provider's console or through the command-line interface (CLI).
-p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Yvfe6Db.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Proceed to create a Windows 10 VM within the selected resource group. During the creation process, ensure you allow the VM to create a new Virtual Network and Subnet, or select existing ones if applicable.
@@ -120,7 +118,7 @@ Proceed to create a Windows 10 VM within the selected resource group. During the
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yQouEzp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Similarly, create a Linux (Ubuntu) VM within the same resource group. Opt for the previously created Virtual Network and Subnet during this setup.
@@ -136,10 +134,10 @@ Utilize Network Watcher or a similar tool to observe the Virtual Network that ha
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VAE9V3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Begin by connecting to the Windows 10 VM using Remote Desktop. Within the VM, install Wireshark and filter the traffic for ICMP packets.
+Begin by connecting to the Windows 10 VM using Remote Desktop. Within the VM, install Wireshark and filter the traffic using (ICMP) .
 </p>
 <br />
 
@@ -154,7 +152,6 @@ Proceed to ping the Ubuntu VM from the Windows 10 VM, as well as ping a public w
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 Next, disable ICMP traffic in the Network Security Group (NSG) of the Ubuntu VM, and observe the changes in Wireshark and ping activity.
 </p>
