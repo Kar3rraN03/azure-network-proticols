@@ -126,14 +126,6 @@ Similarly, create a Linux (Ubuntu) VM within the same resource group. Opt for th
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Utilize Network Watcher or a similar tool to observe the Virtual Network that has been created. This step ensures the network configuration is accurately set up.
-</p>
-<br />
-
-<p>
 <img src="https://i.imgur.com/VAE9V3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
