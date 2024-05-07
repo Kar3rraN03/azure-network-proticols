@@ -152,6 +152,7 @@ Next, disable ICMP traffic in the Network Security Group (NSG) of the Ubuntu VM,
 
 <p>
 <img src="https://i.imgur.com/bwkdQQK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/qC44uVf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 Finally, re-enable ICMP traffic and observe any alterations.
 </p>
@@ -159,7 +160,7 @@ Finally, re-enable ICMP traffic and observe any alterations.
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eixAp71.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next SSH traffic, filter Wireshark for SSH traffic and SSH into the Ubuntu VM from the Windows 10 VM.
@@ -168,7 +169,7 @@ Next SSH traffic, filter Wireshark for SSH traffic and SSH into the Ubuntu VM fr
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lcoesYb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 While connected, type commands and observe the SSH traffic in Wireshark. Exit the SSH connection once observations are complete.
@@ -177,7 +178,7 @@ While connected, type commands and observe the SSH traffic in Wireshark. Exit th
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hLrRiUS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Moving on to DHCP Traffic. Filter Wireshark for DHCP traffic and attempt to renew the IP address of the Windows 10 VM using the ipconfig /renew command.
@@ -185,17 +186,9 @@ Moving on to DHCP Traffic. Filter Wireshark for DHCP traffic and attempt to rene
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Monitor Wireshark for DHCP traffic during this process.
-</p>
-<br />
-
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DeOqsBj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now, DNS Traffic. Filter Wireshark for DNS traffic and use nslookup within the Windows 10 VM command line to query IP addresses for google.com and disney.com.
@@ -204,7 +197,7 @@ Now, DNS Traffic. Filter Wireshark for DNS traffic and use nslookup within the W
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hLrRiUS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Observe the DNS traffic in Wireshark during these queries.
@@ -213,7 +206,7 @@ Observe the DNS traffic in Wireshark during these queries.
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GhcFewp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Finally, RDP Traffic. Filter Wireshark for RDP traffic (tcp.port == 3389) and observe the traffic generated during an RDP session, if applicable.
